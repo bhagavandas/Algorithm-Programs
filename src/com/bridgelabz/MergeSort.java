@@ -32,19 +32,19 @@ public class MergeSort {
 
 		ArrayList<String> left = new ArrayList<String>();
 		ArrayList<String> right = new ArrayList<String>();
-		int center;
+		int mid;
 
 		if (whole.size() == 1) {
 			return whole;
 		} else {
-			center = whole.size() / 2;
+			mid = whole.size() / 2;
 			// copy the left half of whole into the left.
-			for (int i = 0; i < center; i++) {
+			for (int i = 0; i < mid; i++) {
 				left.add(whole.get(i));
 			}
 
 			// copy the right half of whole into the new arraylist.
-			for (int i = center; i < whole.size(); i++) {
+			for (int i = mid; i < whole.size(); i++) {
 				right.add(whole.get(i));
 			}
 
