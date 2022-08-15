@@ -70,6 +70,7 @@ public class FindingPrimeNumberInRange {
 	}
 	
 	
+	
 	public static void main(String args[]) {
 
 		findPrimeNumber();
