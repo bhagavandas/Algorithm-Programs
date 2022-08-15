@@ -60,7 +60,7 @@ public class Permutations {
 	}
 
 	static boolean arePermutation(String str, String str1) {
-		// Get lengths of both strings
+		
 		int n1 = str.length();
 		int n2 = str1.length();
 
