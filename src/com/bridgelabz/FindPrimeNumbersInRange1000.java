@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class FindPrimeNumbersInRange {
+public class FindPrimeNumbersInRange1000 {
 
 	public static void main(String args[]) {
 		findPrimeNumbers();
