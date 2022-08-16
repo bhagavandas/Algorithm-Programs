@@ -13,7 +13,7 @@ public class OrderedList<E> {
 		//LinkedList list = new LinkedList();
 		 LinkedList<Integer> list = new LinkedList<>();
 		 
-		 for (int j = 0; j<= 100; j++ ) {
+		 for (int j = 1; j<= 100; j++ ) {
 			 list.add(j);
 			 
 		 }
@@ -37,11 +37,11 @@ public class OrderedList<E> {
       // Traversing through the Linked List
       for (int i = 0; i < list.size(); i++) {
 
-          int llElement = list.get(i);
+          int number = list.get(i);
 
           // Checking if the extracted element is equal to
           // the element to be searched
-          if (llElement == element) {
+          if (number == element) {
 
               // Assigning the index of the
               // element to answer
@@ -53,8 +53,8 @@ public class OrderedList<E> {
       // List
       if (ans == -1) {
     	 
-    	 
           list.add(element);
+          
           System.out.println("Updated list: " + list);
       }
       else {
